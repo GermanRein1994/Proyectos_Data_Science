@@ -1,0 +1,7 @@
+model,params,score
+lgbm,"{'num_leaves': 90, 'max_depth': 10, 'learning_rate': 0.03696238742158522, 'n_estimators': 615, 'min_child_samples': 43, 'min_child_weight': 0.000957613588615844, 'subsample': 0.7891205647616174, 'colsample_bytree': 0.5767378933010041, 'reg_alpha': 0.6890131590749506, 'reg_lambda': 0.40278083720796354}",0.8930451830651893
+knn,"{'knn_n_neighbors': 9, 'knn_weights': 'distance', 'knn_p': 1}",0.8367573827873203
+dt,"{'dt_max_depth': 16, 'dt_min_samples_split': 42, 'dt_min_samples_leaf': 13, 'dt_criterion': 'squared_error'}",0.8130383714429726
+linear,"{'penalty': 'l2', 'alpha': 0.4131456579706073, 'max_iter': 892}",0.8188371301015204
+rf,"{'rf_n_estimators': 217, 'rf_max_depth': 24, 'rf_min_samples_split': 4, 'rf_min_samples_leaf': 1, 'rf_max_features': 'sqrt', 'rf_bootstrap': False}",0.87510127930829
+gbm,"{'gbm_n_estimators': 190, 'gbm_learning_rate': 0.04793238585747685, 'gbm_max_depth': 23, 'gbm_min_samples_split': 28, 'gbm_min_samples_leaf': 40, 'gbm_max_features': 'log2'}",0.8909001308968734

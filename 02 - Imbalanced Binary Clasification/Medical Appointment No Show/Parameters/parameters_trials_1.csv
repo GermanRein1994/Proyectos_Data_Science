@@ -1,0 +1,6 @@
+model,params,score
+lgbm,"{'num_leaves': 87, 'max_depth': 10, 'learning_rate': 0.2617304953315006, 'n_estimators': 863, 'min_child_samples': 50, 'min_child_weight': 2.5331618916730944e-05, 'subsample': 0.6386549724742197, 'colsample_bytree': 0.7818556650314088, 'reg_alpha': 0.02386358462412089, 'reg_lambda': 0.16570040025298685}",0.12821708641900137
+knn,"{'knn_n_neighbors': 3, 'knn_weights': 'distance', 'knn_p': 2}",0.2183685885970454
+naive,{'naive_var_smoothing': 0.007485114954993629},0.5074047946143834
+dt,"{'dt_max_depth': 20, 'dt_min_samples_split': 12, 'dt_min_samples_leaf': 2, 'dt_criterion': 'gini'}",0.12602083920022528
+logit,"{'logit_penalty': 'l2', 'logit_c': 92.44199240970192, 'logit_solver': 'saga', 'logit_max_iter': 293}",0.006419315330537521

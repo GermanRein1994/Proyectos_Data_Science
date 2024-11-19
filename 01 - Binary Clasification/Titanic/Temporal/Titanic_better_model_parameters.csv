@@ -1,0 +1,2 @@
+best_value,best_params
+0.8357981220657278,"{'rf_n_estimators': 451, 'rf_max_depth': 18, 'rf_min_samples_split': 10, 'rf_min_samples_leaf': 4, 'rf_max_features': 'sqrt', 'rf_bootstrap': True}"
